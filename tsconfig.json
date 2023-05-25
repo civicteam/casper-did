@@ -1,0 +1,13 @@
+{
+  "include": [
+    "src/**/*.ts",
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es2015",
+    "types": ["mocha", "node"],
+    "module": "commonjs",
+    "outDir": "dist",
+    "declaration": true,
+  }
+}
